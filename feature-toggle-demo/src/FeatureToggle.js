@@ -14,7 +14,7 @@ const FeatureToggle = ({ isEnabled, featureName }) => {
       {isEnabled ? (
         <span className="feature-enabled">{featureName}</span>
       ) : (
-        <span className="feature-disabled">Feature {featureName} is disabled</span>
+        <span className="feature-disabled">{featureName} is disabled</span>
       )}
     </div>
   );
